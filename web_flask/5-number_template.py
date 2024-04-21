@@ -3,7 +3,7 @@
 description about this folder
 start a flask application with ip 0.0.0.0
 """
-from flask import Flask render_template
+from flask import Flask, render_template
 
 
 app = Flask(__name__)
